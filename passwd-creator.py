@@ -1,7 +1,7 @@
 #password list creator for brute forcing v.1.0 
 from termcolor import colored
 
-print(colored('This tool is for educational purposes only. \n', 'red'), colored('created by "https://t.me/Maneth_M". \n', 'blue'), colored('if you are featuring this tool in a video or somewhere please give credits \n ', 'yellow'))
+print(colored('This tool is for educational purposes only. \n \n \n ', 'red'), colored('created by "https://t.me/Maneth_M". \n \n ', 'blue'), colored('if you are featuring this tool in a video or somewhere please give credits \n \n \n \n ', 'yellow'))
 
 
 
@@ -14,10 +14,10 @@ lst3 = []
 
 ## First Input
 
-print(colored('enter everything you know about the victim. all in simple', 'blue'))
+print(colored('enter everything you know about the victim. all in simple \n \n \n \n ', 'blue'))
 
 for i in lst2:
-   x=input(str(colored('Enter ' + i + ': ' , 'green')))
+   x=input(str(colored('Enter --> ' + i + ': ' , 'green')))
    if x != '':
      lst1.append(str(x))
    else:
