@@ -17,7 +17,7 @@ lst3 = []
 print(colored('enter everything you know about the victim. all in simple \n \n \n \n ', 'blue'))
 
 for i in lst2:
-   x=input(str(colored('Enter --> ' + i + ': ' , 'green')))
+   x=input(str(colored('Enter --> ' + i + '\n :- ' , 'green')))
    if x != '':
      lst1.append(str(x))
    else:
@@ -28,7 +28,7 @@ for i in lst2:
 
 
 print(colored('''you can add any possible word or number or symbol. such as favorite song, favorite colour, family members' names... Depends on your information gathering skills. don't keep spaces between inputs.''', 'red'))
-w = input(str(colored('Enter any more word,number or symbol possibilities if you have. seperated with a comma. (ex:- john,newyork,@,23,#) : ', 'green')))
+w = input(str(colored('Enter any more word,number or symbol possibilities if you have. seperated with a comma. (ex:- john,newyork,@,23,#) \n :- ', 'green')))
 
 
 ## Adding Second input to the list
@@ -56,7 +56,7 @@ lst1.clear()
 
 ## Adding all upper lowert mixed combinations
 
-d = input('do you wanna try every posibility with lower case and upper case (not recommended. time consuming)? yes(y) or no(n) :''')
+d = input('do you wanna try every posibility with lower case and upper case (not recommended. time consuming)? yes(y) or no(n) \n :- ''')
 
 if d == 'yes' or d == 'y':
 
@@ -67,7 +67,7 @@ if d == 'yes' or d == 'y':
 ##  x = list(x)
 
 elif d == 'no' or d == 'n':
-  s = input(colored('Do you wanna make the first letter upper case (lower case words will also remain)? yes(y) or no(n) :  ', 'blue'))
+  s = input(colored('Do you wanna make the first letter upper case (lower case words will also remain)? yes(y) or no(n) \n :- ', 'blue'))
   
   if s == 'yes' or s == 'y':
     x = []
@@ -85,7 +85,7 @@ lst3.clear()
 
 ##Replacing Same looking letters and Numbers 
 
-z = input(colored('Do you wanna replace letters with same looking numbers and symbols? (ex:- A --> 4, S --> 5) yes(y) or no(n) : ', 'blue'))
+z = input(colored('Do you wanna replace letters with same looking numbers and symbols? (ex:- A --> 4, S --> 5) yes(y) or no(n) \n :- ', 'blue'))
 
 if z == 'yes' or z == 'y':
  n = 0
@@ -130,13 +130,13 @@ else:
 
 lst1 = list(set(lst1))
 
-k = input(colored('''what's the minimum length of the password? : ''', 'yellow'))
+k = input(colored('''what's the minimum length of the password? \n :- ''',  'yellow'))
 
 for i in lst1:
   if len(i) < int(k):
     lst1.remove(i)   
     
-h = input(colored('''what's the maximum length of the password? : ''', 'yellow'))
+h = input(colored('''what's the maximum length of the password? \n :- ''', 'yellow'))
 
 for i in lst1:
   if len(i) > int(h):
