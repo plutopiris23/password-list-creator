@@ -1,7 +1,18 @@
 #password list creator for brute forcing v.1.0 
 from termcolor import colored
 
-print(colored('This tool is for educational purposes only. \n \n \n ', 'red'), colored('created by "https://t.me/Maneth_M". \n \n ', 'blue'), colored('if you are featuring this tool in a video or somewhere please give credits \n \n \n \n ', 'yellow'))
+name = "Password list Creator for Bruteforcing"
+lengte = len(name) + 6
+dotname = "-" * lengte
+print (" ")
+print(colored(dotname , 'red'))
+print(colored(".:: ", 'blue') + colored(name , 'green') + colored(" ::.", 'blue'))
+print(colored(dotname , 'red'))
+
+
+
+
+print(colored('This tool is for educational purposes only.\n', 'red'), colored('created by "https://t.me/Maneth_M".\n', 'blue'), colored('if you are featuring this tool in a video or somewhere please give credits \n \n ', 'yellow'))
 
 
 
