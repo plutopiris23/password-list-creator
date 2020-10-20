@@ -2,7 +2,7 @@
 
 this tool is for educational purposes only.
 
-it's a simple tool which returns a very good password list using the info you'll input. easy to use... but only use for legal stuff :).
+it's a simple tool but, returns a very good password list using the info you'll input. easy to use... but only use for legal stuff :).
 (anyway I made this only for my personal use but... whatever.)
 
 //Installation
