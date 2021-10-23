@@ -162,3 +162,7 @@ MyFile.close()
 
 
 print(str(len(lst1)) + 'passwords have been created in passwords.txt')
+
+
+
+print("This code sucks")
